@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GalleryPage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!-- sidebar -->
+  <div class="sidebar">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link" href="about_me.html">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="games.html">Games</a>
+      </li>
+    </ul>
+  </div>
+
+  <!--main body part-->
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <h1>Gallery</h1>
+      </div>
+
+      <!--Tabs-->
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Pixel Art</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-news-tab" data-toggle="pill" href="#pills-news" role="tab" aria-controls="pills-news" aria-selected="false">Illustrations</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">3D</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-about" aria-selected="false">enviornmental art</a>
+        </li>
+      </ul>
+      
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <h2>Pixel Art</h2>
+          <hr />
+          <h3>Pictures made from squares, tiny squares</h3>
+          <br />
+          <!-- Art Rows for Pixel art-->
+          <div class="row">
+            <div class="col-md-6">
+              <img src="Assets/Gallery/pixel_art/GameJamTileset1.PNG" alt="A sprite sheet" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <img src="Assets/Gallery/pixel_art/MoutianSunset.PNG" alt="A sprite sheet" class="img-fluid">
+            </div>
+          </div>
+          <!-- Row 2-->
+          <div class="row">
+            <div class="col-md-6">
+              <img src="Assets/Gallery/pixel_art/GameJamTileset1.PNG" alt="A sprite sheet" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <img src="Assets/Gallery/pixel_art/MoutianSunset.PNG" alt="A sprite sheet" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab">
+          <h2>Illustrations</h2>
+          <hr />
+          <h3>More rendered works</h3>
+          <br />
+          <p>Nothing here yet i'll tell my army of raccoons to get on that</p>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <h2>3D</h2>
+          <hr />
+          <h3>art with more dimension</h3>
+          <br />
+          <p>UNDERLINGS where is my art?</p>
+        </div>
+        <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
+          <h2>enviornmental art</h2>
+          <hr />
+          <h3>go outside?</h3>
+          <br />
+          <p>i swear there will be things here, soon...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
